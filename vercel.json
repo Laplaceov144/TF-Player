@@ -11,7 +11,7 @@
         "src": "build_files.sh",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "ui/staticfiles"
+          "distDir": "staticfiles"
         }
       }
     ],
@@ -25,5 +25,5 @@
         "dest": "TF_Project/wsgi.py"
       }
     ],
-    "outputDirectory": "ui/staticfiles"
+    "outputDirectory": "staticfiles"
   }
