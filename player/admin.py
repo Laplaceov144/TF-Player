@@ -22,6 +22,7 @@ class PlaylistAdmin(admin.ModelAdmin):
 
 class TrackAdmin(admin.ModelAdmin):
     list_display = ("id", "title", "url")
+    search_fields = ("id", "title")
 
 class TrackBindingAdmin(admin.ModelAdmin):
     list_display = ("playlist_id", "number_on_pl", "track_title")
